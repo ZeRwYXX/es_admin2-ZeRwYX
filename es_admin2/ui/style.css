@@ -1,0 +1,510 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,700,700italic,900,900italic,300italic,300,100italic,100);
+
+body, html {
+	overflow-y: hidden;
+}
+
+#admin {
+	font-family: 'Roboto', sans-serif;
+	height: 650px;
+	background: rgba(0, 0, 0, 0.466);
+	color: white;
+	width: 800px;
+	position: absolute;
+	top: 50%;
+	box-shadow:0px 0px 5px 5px #000000;
+	left: 50%;
+	margin-top: -350px;
+	margin-left: -400px;
+	padding-bottom: 20px;
+}
+.panel {
+    display: inline-block;
+    background: #10202527;
+    box-shadow:0px 0px 5px 5px #000000;
+    margin: 5px;
+    padding: 5px;
+	
+}
+.panel1 {
+	
+    min-height: 150px;
+    height: 150px;
+    min-width: 500px;
+    width: 550px;
+	margin-left: 20px;
+}
+.panel2 {
+	
+    min-height: 150px;
+    height: 150px;
+    min-width: 580px;
+    width:580px;
+}
+.panel3 {
+	
+    min-height: 50px;
+    height: 50px;
+    min-width: 580px;
+    width:580px;
+}
+#main {
+	height: 640px;
+	
+}
+
+#tabs {
+	height: 30px;
+	border-bottom: 0px solid rgba(0, 0, 0, 0);
+}
+
+.tab {
+	width: 100px;
+	height: 30px;
+	float: left;
+	border: none;
+	font-weight: bold;
+	color: white;
+	background: rgba(0, 0, 0, 0.466);
+	border-top-left-radius: 8px;
+
+}
+
+.tab.selected {
+	background: rgba(0, 0, 0, 0);
+
+}
+
+#list {
+	display: inline-block;
+	margin-bottom: 100px;
+	width: 200px;
+	height: 572px;
+	overflow-x: hidden;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+#selected h3 {
+	margin-left: 5px;
+}
+#notexist img {
+	margin-left: 50px;
+	margin-top: 200px;
+}
+
+#quick img {
+	margin-left: 50px;
+	margin-top: 53px;
+}
+
+#server img {
+	margin-left: 150px;
+	margin-top: 50px;
+}
+h3 {
+	margin-left: 10px;
+}
+.quick {
+	margin-left: 9px;
+	width: 31%;
+	background: #12181767;
+	border: none;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: 5px;
+	color: white;
+	font-size: 15px;
+	color: white;
+    box-shadow:0px 0px 5px 5px #00000088;
+	font-weight: bold;
+}
+
+#server button {
+	box-shadow:0px 0px 5px 5px #00000088;
+}
+
+button {
+    margin-left: 15px;
+	transition-duration: 0.4s;
+    
+  }
+  
+ button:hover {
+	background-color: #12181767; /* Green */
+	color: white;
+  }
+
+.group_set {
+	
+	display: inline-block;
+	float: left;
+	padding: 10px;
+	width: 278px;
+}
+
+.group_set button {
+	padding-left: 15px;
+	padding-right: 15px;
+	border: none;
+	width: 100%;
+	margin-top: 4px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background: rgba(23, 27, 34, 0.507);
+	box-shadow:0px 0px 5px 5px #00000088;
+	margin-top: 15px;
+	color: white;
+	font-weight: bold;
+}
+
+.group_set input {
+	width: 100%;
+	padding-top: 3px;
+	padding-bottom: 3px;
+    margin-left: 14px;
+	box-shadow:0px 0px 5px 5px #00000088;
+  border-radius: 4px;
+	margin-top: 20px;
+}
+
+.group_set label {
+	display: block;
+}
+
+#selected {
+	position: absolute;
+	display: inline-block;
+	width: 600px;
+	height: 640px;
+}
+
+#selected h1 {
+	margin-left: 20px;
+}
+
+.player {
+	width: 100%;
+	text-indent: 10px;
+	padding: 5px;
+    
+    background: -webkit-linear-gradient(right, transparent 0%, #00000056 100%);
+}
+
+
+
+.player.selected {
+	background-color: #00000056;
+}
+
+.topbar {
+	height: 50px;
+	font-weight: bold;
+	font-size: 26px;
+	background: rgba(0, 0, 0, 0.466);
+}
+
+.body {
+	height: 650px;
+}
+
+.topbar p {
+	top: 0;
+	margin-top: 0;
+	padding: 10px;
+	display: inline-block;
+}
+
+#close {
+	display: inline-block;
+	float: right;
+	padding: 5px;
+	padding-right: 10px;
+	color: rgb(151, 66, 66);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===== Google Font Import - Poppins ===== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.4s ease;;
+}
+
+
+/* ===== Colours ===== */
+:root{
+    --nav-color: #4070F4;
+    --side-nav: #010718;
+    --text-color: #FFF;
+    --search-bar: #F2F2F2;
+    --search-text: #010718;
+}
+
+
+
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 70px;
+    width: 100%;
+    background-color: var(--nav-color);
+    z-index: 100;
+}
+
+
+
+
+nav .nav-bar{
+    position: relative;
+    height: 100%;
+    max-width: 1000px;
+    width: 100%;
+    background-color: var(--nav-color);
+    margin: 0 auto;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .nav-bar .sidebarOpen{
+    color: var(--text-color);
+    font-size: 25px;
+    padding: 5px;
+    cursor: pointer;
+    display: none;
+}
+
+nav .nav-bar .logo a{
+    font-size: 25px;
+    font-weight: 500;
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.menu .logo-toggle{
+    display: none;
+}
+
+.nav-bar .nav-links{
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar .nav-links li{
+    margin: 0 5px;
+    list-style: none;
+}
+
+.nav-links li a{
+    position: relative;
+    font-size: 17px;
+    font-weight: 400;
+    color: var(--text-color);
+    text-decoration: none;
+    padding: 10px;
+}
+
+.nav-links li a::before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    background-color: var(--text-color);
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+.nav-links li:hover a::before{
+    opacity: 1;
+}
+
+.nav-bar .darkLight-searchBox{
+    display: flex;
+    align-items: center;
+}
+
+.darkLight-searchBox .dark-light,
+.darkLight-searchBox .searchToggle{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px;
+}
+
+.dark-light i,
+.searchToggle i{
+    position: absolute;
+    color: var(--text-color);
+    font-size: 22px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.dark-light i.sun{
+    opacity: 0;
+    pointer-events: none;
+}
+
+.dark-light.active i.sun{
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.dark-light.active i.moon{
+    opacity: 0;
+    pointer-events: none;
+}
+
+.searchToggle i.cancel{
+    opacity: 0;
+    pointer-events: none;
+}
+
+.searchToggle.active i.cancel{
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.searchToggle.active i.search{
+    opacity: 0;
+    pointer-events: none;
+}
+
+.searchBox{
+    position: relative;
+}
+
+.searchBox .search-field{
+    position: absolute;
+    bottom: -85px;
+    right: 5px;
+    height: 50px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    background-color: var(--nav-color);
+    padding: 3px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+
+.searchToggle.active ~ .search-field{
+    bottom: -74px;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.search-field::before{
+    content: '';
+    position: absolute;
+    right: 14px;
+    top: -4px;
+    height: 12px;
+    width: 12px;
+    background-color: var(--nav-color);
+    transform: rotate(-45deg);
+    z-index: -1;
+}
+
+.search-field input{
+    height: 100%;
+    width: 100%;
+    padding: 0 45px 0 15px;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--search-text);
+    background-color: var(--search-bar);
+}
+
+
+.search-field i{
+    position: absolute;
+    color: var(--nav-color);
+    right: 15px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+
+@media (max-width: 790px) {
+    nav .nav-bar .sidebarOpen{
+        display: block;
+    }
+
+    .menu{
+        position: fixed;
+        height: 100%;
+        width: 320px;
+        left: -100%;
+        top: 0;
+        padding: 20px;
+        background-color: var(--side-nav);
+        z-index: 100;
+        transition: all 0.4s ease;
+    }
+
+    nav.active .menu{
+        left: -0%;
+    }
+
+    nav.active .nav-bar .navLogo a{
+        opacity: 0;
+        transition: all 0.3s ease;
+    }
+
+    .menu .logo-toggle{
+        display: block;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .logo-toggle .siderbarClose{
+        color: var(--text-color);
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+    .nav-bar .nav-links{
+        flex-direction: column;
+        padding-top: 30px;
+    }
+
+    .nav-links li a{
+        display: block;
+        margin-top: 20px;
+    }
+}
